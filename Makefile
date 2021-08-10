@@ -4,7 +4,7 @@ libht.a : $(OBJS)
 	ar r libht.a $(OBJS)
 
 %.o:%.cc
-	g++ -g -o $@ -c $< -I../comm/ -DHAS_ATTR_API
+	g++ -g -o $@ -c $< # -I../comm/ -DHAS_ATTR_API
 
 clean:
 	rm -f *.o libht.a

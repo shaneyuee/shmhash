@@ -33,6 +33,7 @@
 #include "Attr_API.h"
 #else
 #define Attr_API(a, b)
+#define Attr_API_Set(a, b)
 #endif
 
 static const char *errnotostr(int errnum)

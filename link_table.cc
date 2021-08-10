@@ -25,6 +25,7 @@
 #include "Attr_API.h"
 #else
 #define Attr_API(a, b)
+#define Attr_API_Set(a, b)
 #endif
 
 //初始化链式表，用户必须自己分配LinkTableHead和Block所需的buffer
